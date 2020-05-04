@@ -1,0 +1,11 @@
+[Match]
+Name=vpn_*
+
+[Network]
+DHCP=yes
+IPv6AcceptRA=false
+
+[DHCP]
+UseRoutes=true
+UseMTU=true
+RouteMetric=100
