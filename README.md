@@ -4,11 +4,11 @@ Copy and paste this script to `/etc/NetworkManager/dispatcher.d`
 
 Than make it executable `chmod +x /etc/NetworkManager/dispatcher.d/set-vpn-routes.sh`
 
-Make the list of ip-addresses in /opt folder
+Make the list of ip-addresses in /opt folder like in server-list.txt
 
-Enable the system-networkd service on startup  `systemctl enable systemd-networkd`
+Enable the systemd-networkd service on startup  `systemctl enable systemd-networkd`
 
-Copy the network unit file to `/etc/systemd/netowork`
+Copy the network unit file to `/etc/systemd/network`
 
 Reboot your PC and connect to any SoftetherVPN Server with standard client.
 
